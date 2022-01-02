@@ -16,10 +16,11 @@ The program should ask the user to input the following:
 -The amount of space used by an end-post assembly, in feet 
 -The amount of space in between the vines, in feet
 """
+import math
 
 print("Welcome to grapevine calculator. Please provide all measurements in feet.")
 R = int(input("Enter the length of the row: "))
 E = int(input("Enter the amount of space used by the end-post assembly: "))
 S = int(input("Enter the space in between the vines: "))
-V = (R - 2 * E) / S
+V = math.floor((R - 2 * E) / S)
 print("You can fit",  V, "vines in one row.")
