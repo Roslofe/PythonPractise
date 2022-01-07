@@ -1,5 +1,7 @@
 """
-Write a program that lets the user play rock, paper, scissors against the computer."""
+Instructions:
+Write a program that lets the user play rock, paper, scissors against the computer.
+"""
 
 import random
 
