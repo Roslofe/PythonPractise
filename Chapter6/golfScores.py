@@ -1,7 +1,7 @@
 """
 Instructions:
 Write a program for a gold club that reads each player's name and gold score as keyboard input, then save these records in a file named golf.txt
-(Each record will have a field for the palyer's name and a field for the player's score.)
+(Each record will have a field for the player's name and a field for the player's score.)
 """
 
 def golfRecorder():
